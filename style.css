@@ -47,6 +47,13 @@ nav {
 .sec_4 {
   background: url("./assets/jv-sec4bg.png");
   background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.mini-bg5 {
+  background: url("./assets/jv-sec3-minibg.png");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
