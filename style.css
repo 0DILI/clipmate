@@ -51,6 +51,13 @@ nav {
   background-size: cover;
 }
 
+.mini-bg2 {
+  background: url("./assets/mini-bg2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .mini-bg5 {
   background: url("./assets/jv-sec3-minibg.png");
   background-repeat: no-repeat;
@@ -75,6 +82,30 @@ nav {
   height: 100%;
   border-radius: 20px;
   border: none;
+}
+
+.video-container2 {
+  position: relative;
+  width: 100%;
+  max-width: 999px;
+  aspect-ratio: 16 / 9;
+  background: url("./assets/vid-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.video-container2 iframe {
+  width: 80%;
+  height: 80%;
+  max-width: 700px;
+  margin-top: -2rem;
 }
 
 @keyframes bounce-smooth {
